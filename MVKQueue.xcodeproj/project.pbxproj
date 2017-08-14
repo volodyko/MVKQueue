@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0D66B49F1F41992C00EDAA50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D66B49E1F41992C00EDAA50 /* main.m */; };
+		0D66B4A71F41993E00EDAA50 /* MVKQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D66B4A61F41993E00EDAA50 /* MVKQueue.m */; };
+		0D66B4AA1F41994C00EDAA50 /* MVKQueueEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D66B4A91F41994C00EDAA50 /* MVKQueueEntity.m */; };
+		0D66B4B01F419AA600EDAA50 /* MVKQueueDelegatImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D66B4AF1F419AA500EDAA50 /* MVKQueueDelegatImpl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		0D66B49B1F41992C00EDAA50 /* MVKQueue */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MVKQueue; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D66B49E1F41992C00EDAA50 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0D66B4A51F41993E00EDAA50 /* MVKQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVKQueue.h; sourceTree = "<group>"; };
+		0D66B4A61F41993E00EDAA50 /* MVKQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVKQueue.m; sourceTree = "<group>"; };
+		0D66B4A81F41994C00EDAA50 /* MVKQueueEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVKQueueEntity.h; sourceTree = "<group>"; };
+		0D66B4A91F41994C00EDAA50 /* MVKQueueEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVKQueueEntity.m; sourceTree = "<group>"; };
+		0D66B4AE1F419AA500EDAA50 /* MVKQueueDelegatImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVKQueueDelegatImpl.h; sourceTree = "<group>"; };
+		0D66B4AF1F419AA500EDAA50 /* MVKQueueDelegatImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVKQueueDelegatImpl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				0D66B49E1F41992C00EDAA50 /* main.m */,
+				0D66B4A51F41993E00EDAA50 /* MVKQueue.h */,
+				0D66B4A61F41993E00EDAA50 /* MVKQueue.m */,
+				0D66B4A81F41994C00EDAA50 /* MVKQueueEntity.h */,
+				0D66B4A91F41994C00EDAA50 /* MVKQueueEntity.m */,
+				0D66B4AE1F419AA500EDAA50 /* MVKQueueDelegatImpl.h */,
+				0D66B4AF1F419AA500EDAA50 /* MVKQueueDelegatImpl.m */,
 			);
 			path = MVKQueue;
 			sourceTree = "<group>";
@@ -118,7 +133,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D66B4A71F41993E00EDAA50 /* MVKQueue.m in Sources */,
+				0D66B4AA1F41994C00EDAA50 /* MVKQueueEntity.m in Sources */,
 				0D66B49F1F41992C00EDAA50 /* main.m in Sources */,
+				0D66B4B01F419AA600EDAA50 /* MVKQueueDelegatImpl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
